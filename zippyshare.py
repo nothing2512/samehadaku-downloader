@@ -5,7 +5,7 @@ import requests
 
 from resizer import size
 
-directory = "/home/nothing/Downloads/samehadaku"
+directory = os.environ["HOME"] + "/Downloads/samehadaku"
 
 
 def download(link: str):
